@@ -4,10 +4,6 @@ echo -e "
 Enter commit message :"
 read message
 
-echo -e "
-The password is :
-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
-"
 echo "Pulling the lastest changes:"
 git pull
 
@@ -19,4 +15,3 @@ git commit -m "${message}"
 echo "
 Pushing the new changes:"
 git push
-
